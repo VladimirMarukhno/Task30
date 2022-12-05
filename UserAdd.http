@@ -1,0 +1,29 @@
+###
+POST http://localhost:8084/create
+
+{
+    "name": "alice",
+    "age": 50
+}
+###
+POST http://localhost:8084/create
+
+{
+    "name": "viktor",
+    "age": 23
+}
+###
+POST http://localhost:8084/create
+
+{
+    "name": "matya",
+    "age": 12
+}
+###
+POST http://localhost:8084/create
+
+{
+    "name": "rick",
+    "age": 36
+}
+

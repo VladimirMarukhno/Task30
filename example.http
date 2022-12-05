@@ -1,0 +1,28 @@
+###
+POST http://localhost:8084/make_friends
+
+{
+    "friends": [1,3]
+}
+
+###
+DELETE http://localhost:8084/delete_user
+
+{
+    "id": 1
+}
+
+###
+GET http://localhost:8084/get_friend
+
+{
+    "id": 1
+}
+
+###
+PUT http://localhost:8084/update_age
+
+{
+    "id": 1,
+    "age": 21
+}
